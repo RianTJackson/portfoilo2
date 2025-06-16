@@ -1,0 +1,57 @@
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    background-color: #023047;
+}
+
+.abText{
+    width: 50%;
+    text-align: justify;
+    padding-left: 25px;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.bold{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.D{
+    color: #FB8500
+}
+
+.I{
+    color: #FFB703
+}
+
+.abIamge{
+    width: 50%;
+}
+
+.skills{
+    display:flex;
+    flex-direction: row;
+    background-color: #092B34;
+}
+
+.dev{
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.its{
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
