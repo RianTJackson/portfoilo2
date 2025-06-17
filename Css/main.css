@@ -2,6 +2,17 @@
     display: flex;
     flex-direction: row;
     background-color: #023047;
+    position:sticky;
+    top: 0;
+    z-index: -1;
+}
+
+.mainStuf{
+    z-index: 1;
+}
+
+.iss{
+    
 }
 
 .abText{
@@ -49,6 +60,49 @@
     padding-left: 25px;
     padding-right: 15px;
 }
+
+.skillsFormat{
+    font-family: "Libre Baskerville", serif;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.devT{
+ color:#FB8500;
+}
+
+.itsT{
+ color: #FFB703;
+}
+
+.bot{
+    color:aliceblue;
+    display: flex;
+    flex-direction:row;
+    background-color: #000000;
+    padding: 15px;
+}
+
+.imLink{
+    height:50px;
+    width: 50px;
+    padding-left: 15px;
+    padding-right: 15;
+}
+
+.images{
+    width: 73%;
+}
+
+.email{
+    font-family: "Libre Baskerville", serif;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 40px;
+    width:25%
+}
+
 
 body{
     margin: 0;
