@@ -9,9 +9,40 @@
 
 .mainStuf{
     z-index: 1;
+    position:relative;
 }
 
+body{
+    z-index: -2;
+    position: relative;
+}
+
+
 .iss{
+    color: whitesmoke;
+    text-align: center;
+    background-image: linear-gradient(black, skyblue);
+    width:15%;
+}
+
+.nasaBut{
+    border:none;
+    border-bottom: 3px solid whitesmoke;
+    background:none;
+    font-family: "Libre Baskerville", serif;
+    color: whitesmoke;
+}
+
+.nasaBut:hover{
+    border-bottom:3px solid #FB8500;
+    color:#FFB703;
+}
+
+.issImg{
+    height: 50px;
+    width: auto;
+    padding-top: 20px;
+    transform: rotate(25deg)
     
 }
 
@@ -24,6 +55,10 @@
     font-weight: 700;
     font-style: normal;
     font-size: 20px;
+}
+
+.aboutBody{
+    line-height: 35px;
 }
 
 .bold{
@@ -40,7 +75,11 @@
 }
 
 .abIamge{
-    width: 50%;
+    width: 40%;
+}
+
+.portImag{
+    float: right;
 }
 
 .skills{
@@ -50,13 +89,13 @@
 }
 
 .dev{
-    text-align: center;
+    text-align: left;
     padding-left: 25px;
     padding-right: 15px;
 }
 
 .its{
-    text-align: center;
+    text-align: left;
     padding-left: 25px;
     padding-right: 15px;
 }
@@ -88,7 +127,8 @@
     height:50px;
     width: 50px;
     padding-left: 15px;
-    padding-right: 15;
+    padding-right: 15px;
+    padding-top: 13px;
 }
 
 .images{
